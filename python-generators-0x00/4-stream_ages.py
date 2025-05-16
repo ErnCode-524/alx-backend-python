@@ -20,4 +20,4 @@ def average_age():
   avg_age = total / count
   print(f'Average age of users: {avg_age}')
 
-average_age()
+average_age()  
