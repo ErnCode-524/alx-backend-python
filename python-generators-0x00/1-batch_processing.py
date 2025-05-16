@@ -9,6 +9,8 @@ def stream_users_in_batches(batch_size):
     for row in rows:
       yield row
 
+# return
+
 for user in stream_users_in_batches(5):
    print(user)
 
