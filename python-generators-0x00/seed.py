@@ -5,7 +5,7 @@ def connect_db():
     connection = mysql.connector.connect(
       host = 'localhost',
       user = 'root',
-      password = 'Naakmp@30.',
+      password = '*******',
       database = 'ALX_prodev'
     )
     print('Connected to the database successfully!')
